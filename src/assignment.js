@@ -28,8 +28,8 @@ const sum = [1, 2, 3, 4, 5].reduce((a, b) => a + b);
  * @returns number the count of even numbers
  */
 var evenNumbers = [1, 2, 3, 4, 5],
-    odd = tall.reduce(function (r, a) {return r + a % 2;}, 0),
-    even = tall.length - odd;
+    odd = evenNumbers.reduce(function (r, a) {return r + a % 2;}, 0),
+    even = evenNumbers.length - odd;
 // assignment.countEvenNumbers = countEvenNumbers;
 
 /**
