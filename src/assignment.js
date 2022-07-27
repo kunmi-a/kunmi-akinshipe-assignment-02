@@ -16,7 +16,7 @@ const assignment = {};
 const sum = [1, 2, 3, 4, 5].reduce((a, b) => a + b);
  
 
-// assignment.sumOfNumbers = sumOfNumbers;
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -30,7 +30,7 @@ const sum = [1, 2, 3, 4, 5].reduce((a, b) => a + b);
 var evenNumbers = [1, 2, 3, 4, 5],
     odd = evenNumbers.reduce(function (r, a) {return r + a % 2;}, 0),
     even = evenNumbers.length - odd;
-// assignment.countEvenNumbers = countEvenNumbers;
+ assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
