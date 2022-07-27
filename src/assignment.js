@@ -28,8 +28,8 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @returns number the count of even numbers
  */
 var countEvenNumbers = [1, 2, 3, 4, 5],
-    odd = evenNumbers.reduce(function (r, a) {return r + a % 2;}, 0),
-    even = evenNumbers.length - odd;
+    odd = countEvenNumbers.reduce(function (r, a) {return r + a % 2;}, 0),
+    even = countEvenNumbers.length - odd;
  assignment.countEvenNumbers = countEvenNumbers;
 
 /**
