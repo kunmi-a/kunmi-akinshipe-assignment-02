@@ -13,7 +13,7 @@ const assignment = {};
  * @param {Array} arrayOfNumbers the array of numbers to sum
  * @returns number the sum of the numbers
  */
-const sum = [1, 2, 3, 4, 5].reduce((a, b) => a + b);
+const sumOfNumbers = [1, 2, 3, 4, 5].reduce((a, b) => a + b);
  
 
 assignment.sumOfNumbers = sumOfNumbers;
@@ -27,7 +27,7 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
-var evenNumbers = [1, 2, 3, 4, 5],
+var countEvenNumbers = [1, 2, 3, 4, 5],
     odd = evenNumbers.reduce(function (r, a) {return r + a % 2;}, 0),
     even = evenNumbers.length - odd;
  assignment.countEvenNumbers = countEvenNumbers;
